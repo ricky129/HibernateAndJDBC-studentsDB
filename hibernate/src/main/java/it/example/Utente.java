@@ -30,7 +30,6 @@ public class Utente {
     private String pswd;
 
     // Costruttori
-
     public Utente(int id, String nome, String cognome, int tel, String username, String pswd) {
         this.id = id;
         this.nome = nome;
@@ -38,6 +37,9 @@ public class Utente {
         this.tel = tel;
         this.username = username;
         this.pswd = pswd;
+    }
+
+    public Utente() {
     }
 
     // Getter e Setter

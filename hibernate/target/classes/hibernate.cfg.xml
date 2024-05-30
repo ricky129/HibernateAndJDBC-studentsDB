@@ -16,7 +16,7 @@
         <property name="hibernate.connection.username">root</property>
 
         <!-- Database connection password -->
-        <property name="hibernate.connection.password">R11Tmysql!</property>
+        <property name="hibernate.connection.password"></property>
 
         <!-- Enable Hibernate's automatic session context management -->
         <property name="hibernate.current_session_context_class">thread</property>
